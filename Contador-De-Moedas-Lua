@@ -1,0 +1,28 @@
+print("Quantas Moedas De 1 Real Voce Possui?")
+local valor1 = tonumber(io.read())
+
+print("Quantas Moedas De 50 Centavos Voce Possui?")
+local valor2 = tonumber(io.read())
+
+print("Quantas Moedas De 25 Centavos Voce Possui?")
+local valor3 = tonumber(io.read())
+
+print("Quantas Moedas De 10 Centavos Voce Possui?")
+local valor4 = tonumber(io.read())
+
+print("Quantas Moedas De 5 Centavos Voce Possui?")
+local valor5 = tonumber(io.read())
+
+local num1 = 1 *valor1
+local num2 = 0.50 *valor2
+local num3 = 0.25 *valor3
+local num4 = 0.10 *valor4
+local num5 = 0.05 *valor5
+
+valor1 = num1
+valor2 = num2
+valor3 = num3
+valor4 = num4
+valor5 = num5
+
+print("Voce Tem R$ "..num1 + num2 + num3 + num4 + num5.." Reais")
